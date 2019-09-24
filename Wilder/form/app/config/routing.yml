@@ -1,0 +1,5 @@
+new_form:
+    resource: "@NEWFormBundle/Controller/"
+    type:     annotation
+    prefix:   /
+

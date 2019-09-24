@@ -1,0 +1,49 @@
+/*homepage */
+
+.background{
+
+}
+
+#background-carousel{
+    position:fixed;
+    width:100%;
+    height:85%;
+    z-index:-1;
+
+}
+.carousel,
+.carousel-inner {
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    z-index:0;
+
+}
+.item {
+    width:100%;
+    height:100%;
+    background-position:center center;
+    background-size:cover;
+    z-index:0;
+
+}
+
+#content-wrapper {
+    position: absolute;
+    z-index: 1 ;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.well {
+    opacity:0.85;
+}
+
+
+.title{ color:black; font-size:40px; }
+
+img {
+    width: 100%;
+}
+
+/*fin homepage*/
